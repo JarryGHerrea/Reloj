@@ -52,3 +52,32 @@ transition: 0.3s ease;
 .btn-container-clock button:hover{
 background-color: #3b618b;
 }
+
+
+/*Modo oscuro*/
+
+.dark-theme-btn{
+    position: fixed;
+    z-index: 999;
+    bottom: 1vh;
+    right: 1vw;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: #89a7c8;
+    color: white;
+    cursor: pointer;
+    outline: 0;
+    border: 0;
+    transition: all 0.3s ease-out;
+}
+.dark-theme-btn:hover{
+    background-color: #3b618b;
+    color: white;
+}
+.dark-mode{
+    background-color: rgb(57, 57, 57);
+    color: rgb(32, 14, 14);
+}
